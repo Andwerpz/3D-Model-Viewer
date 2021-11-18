@@ -310,6 +310,8 @@ public class MenuState extends State{
 				this.mesh.readMeshFromFile(fd.getFiles()[0].getAbsolutePath(), true);
 				this.mesh.camera = new Point3D(0, 0, -20);
 				this.mesh.vLookDir = new Vector3D(0, 0, 1);
+				this.mesh.xRot = 0;
+				this.mesh.yRot = 0;
 				break;
 			}
 		}
